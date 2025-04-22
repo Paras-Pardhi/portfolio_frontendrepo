@@ -16,7 +16,7 @@ const Achievements = () => {
         <div className="certificate-img">
           <img src={webdevImg} alt="Web devloper img" />
         </div>
-        <p className="skills-title">Skills I Acquired.</p>
+        {/* <p className="skills-title">Skills I Acquired.</p>
         <div className="certificate-skills">
           <div className="html-css">
             <div>
@@ -64,7 +64,7 @@ const Achievements = () => {
               </ul>
             </div>
           </div>
-        </div>
+        </div> */}
         <hr />
       </section>
       <section className="certificate-section">
@@ -74,7 +74,7 @@ const Achievements = () => {
         <div className="certificate-img">
           <img src={reactImg} alt="Web devloper img" />
         </div>
-        <p className="skills-title">Skills I Acquired.</p>
+        {/* <p className="skills-title">Skills I Acquired.</p>
         <div className="certificate-skills">
           <div className="react">
             <div>
@@ -120,7 +120,7 @@ const Achievements = () => {
               </ul>
             </div>
           </div>
-        </div>
+        </div> */}
       <hr />
       </section>
       <section className="certificate-section">
@@ -130,7 +130,7 @@ const Achievements = () => {
         <div className="certificate-img">
           <img src={nodeImg} alt="Web devloper img" />
         </div>
-        <p className="skills-title">Skills I Acquired.</p>
+        {/* <p className="skills-title">Skills I Acquired.</p>
         <div className="certificate-skills">
           <div className="node-one">
             <div>
@@ -175,7 +175,7 @@ const Achievements = () => {
               </ul>
             </div>
           </div>
-        </div>
+        </div> */}
       </section>
     </>
   );

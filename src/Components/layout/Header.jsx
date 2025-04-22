@@ -2,7 +2,7 @@ import React, { useState, useContext } from "react";
 import { AuthContext } from "../../main";
 import axios from "axios";
 import toast from "react-hot-toast";
-import { NavLink, useNavigate } from "react-router-dom";
+import { Link, NavLink, useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { toggleMode } from "../../Redux/Slices/ThemeSlice";
 
@@ -41,9 +41,11 @@ const Header = () => {
   return (
     <header className={`nav-head ${currentMode} `}>
     <nav className={`nav-main  isAuthorized ? "navbarShow" : "navbarHide"`}>
+    <Link  to={"/"} className = 'logolink'>
       <div className="logo">
         Code<font>Paras</font>
       </div>
+        </Link>
       <div className="menu-icon" onClick={handleClick}>
         <i className={clicked ? "fas fa-times" : "fas fa-bars"}></i>
         {/* <GiHamburgerMenu /> */}

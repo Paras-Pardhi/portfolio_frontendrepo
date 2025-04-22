@@ -74,10 +74,14 @@ main, nav, .header {
     font-weight: 600;
     font-size: 25px;
     color: tomato;
+    text-decoration: none;
   }
   
   .logo font {
     color: grey;
+  }
+  .logolink{
+    text-decoration: none;
   }
   
   .menu-list {

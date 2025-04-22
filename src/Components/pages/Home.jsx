@@ -76,7 +76,7 @@ const Home = () => {
         </div>
         <div className="resume">
           <span><IoDownloadOutline />
-            <a href="Paras_Pardhi_Mern_resume.pdf" download="Paras_Pardhi_Mern_resume.pdf">Download Resume</a>
+            <a href="Paras_Pardhi_Mern_resume.pdf" download="paras_pardhi_Dev_resume.pdf">Download Resume</a>
           </span>
         </div>
       </section>
