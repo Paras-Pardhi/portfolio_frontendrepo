@@ -71,13 +71,15 @@ const Header = () => {
     if (status === 'succeeded') {
       setIsAuthorized(true);
     }
+    setIsOpen(false); 
+    navigateTo('/');
   }, [status, setIsAuthorized]);
 
 
 
-  if (isAuthorized) {
-    return <Navigate to={'/'} />
-  }
+  // if (isAuthorized) {
+  //   return <Navigate to={'/'} />
+  // }
 
   return (
     <header className={`nav-head ${currentMode} `}>
