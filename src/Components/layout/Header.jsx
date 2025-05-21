@@ -138,7 +138,10 @@ const Header = () => {
             {isAuthorized ? (<NavLink onClick={handleLogout}>LOGOUT</NavLink>)
               : (<>
                 <NavLink id="auth-btn" onClick={() => setIsOpen(true)}>Admin</NavLink>
-                <Modal className='loginmodal'
+              </>   
+              )
+            }
+            <Modal className='loginmodal'
                   header={<div className="modal-header">Admin Login</div>}
                   // footer={
                   //   <div className="modal-footer">
@@ -201,12 +204,6 @@ const Header = () => {
                       </button>
                   </form>
                 </Modal>
-
-
-              </>
-
-              )
-            }
           </li>
 
         </ul>
