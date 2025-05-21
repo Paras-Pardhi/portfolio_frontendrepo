@@ -42,11 +42,11 @@ function App() {
     <>
       <BrowserRouter>
         <Header/>
-        <main  className={`${currentMode}`}>
+        <main >
           <Routes>
             <Route path='/' element={<Home/>}/>
-            <Route path='/login' element={<Login/>}/>
-            <Route path='/register' element={<Register/>}/>
+            {/* <Route path='/login' element={<Login/>}/> */}
+            {/* <Route path='/register' element={<Register/>}/> */}
             <Route path='/acheivemnts' element={<Achievements/>}/>
             <Route path='/projects' element={<Projects/>}/>
             <Route path='/postProject' element={ <PostProject/> }/>

@@ -8,8 +8,8 @@ import htmlcss from '../../../public/images/htmlcss.png'
 import reactimg from '../../../public/images/reactimg.png'
 import reduximg from '../../../public/images/reduximg.png'
 import mongodbimg from '../../../public/images/mongodbimg.png'
-import nodeimg from '../../../public/images/nodeimg.jpg'
-;
+import nodeimg from '../../../public/images/nodeimg.jpg';
+
 
 
 const Home = () => {
@@ -22,7 +22,7 @@ const Home = () => {
           <div className="profile-about">
             <h2 className="profile-heading">About Me</h2>
             <br />
-            <p className="profile-text">
+            {/* <p className="profile-text">
               Hello! I'm Paras, a passionate and dedicated 
             </p>
             <p className="profile-text">
@@ -42,7 +42,16 @@ const Home = () => {
             </p>
             <p className="profile-text">
             enabling me to create seamless user experiences.
-            </p>
+            </p> */}
+            <p className="profile-text">
+              Hello! I'm Paras, a passionate and dedicated  
+            MERN stack web developer. With a keen interest 
+            in building dynamic and responsive web applications,
+            I have honed my skills in various modern web technologies. 
+            My journey into web development has equipped me with a 
+            robust understanding of both front-end and back-end development,
+            enabling me to create seamless user experiences.
+           </p>
                
           </div>
           <div className="profile-icon">
@@ -76,7 +85,7 @@ const Home = () => {
         </div>
         <div className="resume">
           <span><IoDownloadOutline />
-            <a href="Paras_Pardhi_Mern_resume.pdf" download="paras_pardhi_Dev_resume.pdf">Download Resume</a>
+            <a href="CVParasPardhi.pdf" download="paras_pardhi_Dev_resume.pdf">Download Resume</a>
           </span>
         </div>
       </section>

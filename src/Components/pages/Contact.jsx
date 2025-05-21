@@ -1,14 +1,12 @@
 import React, { useRef, useState, useContext } from "react";
 import emailjs from "@emailjs/browser";
 import toast from "react-hot-toast";
-import { AuthContext } from "../../main";
 import { CiLinkedin } from "react-icons/ci";
 import { FaGithub } from "react-icons/fa6";
 
 const Contact = () => {
   const form = useRef();
   const [formValid, setFormValid] = useState(true);
-  const { isAuthorized, user } = useContext(AuthContext);
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -37,11 +35,6 @@ const Contact = () => {
 
   return (
     <>
-      {!isAuthorized ? (
-        <div className="auth-err">
-          <p>You need to Login to use this resource...</p>
-        </div>
-      ) : (
         <div className="job_post page">
           <div className="container">
             <p>Contact US</p>
@@ -55,7 +48,7 @@ const Contact = () => {
                   <CiLinkedin /> Visit my LinkedIn profile
                 </a>
                 <a
-                   href="https://github.com/parascool"
+                   href="https://github.com/Paras-Pardhi"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -114,7 +107,6 @@ const Contact = () => {
             </form>
           </div>
         </div>
-      )}
     </>
   );
 };

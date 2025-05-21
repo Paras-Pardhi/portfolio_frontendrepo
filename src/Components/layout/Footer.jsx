@@ -13,7 +13,7 @@ const Footer = () => {
           <ul>
             <li>
             <a
-                   href="https://github.com/parascool"
+                   href="https://github.com/Paras-Pardhi"
                   target="_blank"
                   rel="noopener noreferrer"
                 ><FaGithub /> Visit my GitHub</a> 

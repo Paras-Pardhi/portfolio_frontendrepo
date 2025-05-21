@@ -10,9 +10,12 @@
 }
 
 body{
-    --background-color: white;
+    /* --background-color: white;
     --color: black;
-    --elements-color: white;
+    --elements-color: white; */
+     --background-color: hsl(207, 26%, 17%);
+  --color: white;
+  --elements-color: hsl(209, 23%, 22%);
 }
 
 
@@ -22,11 +25,11 @@ main, nav, .header {
 }
 
 
-.dark {
+/* .dark {
   --background-color: hsl(207, 26%, 17%);
   --color: white;
   --elements-color: hsl(209, 23%, 22%);
-}
+} */
    .nav-head{
     box-shadow: 0 8px 13px rgb(0 0 0 / 17%);
     background-color:var(--elements-color);;
@@ -281,7 +284,7 @@ main, nav, .header {
     height: 450px; 
     border-radius: 50% ; 
     object-fit: cover; 
-    border: 4px dashed #0e0bdd; 
+    border: 4px solid tomato; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     
 }
@@ -347,10 +350,12 @@ main, nav, .header {
 .skills-box {
     display: grid;
     gap: 1rem;
+        max-height: 500px;
 }
 
 .box {
     min-height: 162px; 
+    /* max-height: 130px; */
     border-radius: 10px;
     display: flex;
     justify-content: center;
@@ -376,6 +381,7 @@ main, nav, .header {
 
 .box-1 {
     background-color: #BA56F6;
+    /* height: 30px; */
 }
 
 .box-2 {
@@ -1126,50 +1132,51 @@ main, nav, .header {
   text-align: center;
   margin-bottom: 30px;
 }
-.authPage .container form {
+.loginform {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  width: 60%;
 }
-.authPage .container form .inputTag {
+.loginform .inputTag {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
-.authPage .container form .inputTag div {
+.loginform .inputTag div {
   display: flex;
   align-items: center;
   border-radius: 7px;
 }
-.authPage .container form .inputTag div input,
-.authPage .container form .inputTag div select {
+.loginform .inputTag div input,
+.loginform .inputTag div select {
   background: #87878778;
   padding: 8px;
   border: none;
   width: 100%;
   height: 100%;
 }
-.authPage .container form .inputTag div input:focus,
-.authPage .container form .inputTag div select:focus {
+.loginform .inputTag div input:focus,
+.loginform .inputTag div select:focus {
   outline: none;
 }
-.authPage .container form .inputTag div svg {
-  width: 10%;
+.loginform .inputTag div svg {
+  width: 50px;
   font-size: 1.5rem;
   background: #fc815c;;
   height: 100%;
   padding: 8px;
   color: #fff;
 }
-.authPage .container form .inputTag div span svg {
-  width: 10%;
+.loginform .inputTag div span svg {
+  width: 50px;
   font-size: 1.5rem;
   background: #fc815c;;
   height: 100%;
   padding: 8px;
   color: #fff;
 }
-.authPage .container form button {
+.loginform button {
   padding: 12px;
   text-align: center;
   border: none;
@@ -1179,8 +1186,9 @@ main, nav, .header {
   background: #fc815c;;
   font-size: 1.2rem;
   border-radius: 7px;
+  width: 100%;
 }
-.authPage .container form a {
+.loginform a {
   padding: 12px;
   text-align: center;
   border: 1px solid #fc815c;;
@@ -1192,8 +1200,9 @@ main, nav, .header {
   border-radius: 7px;
 }
 
-.authPage .container .loginBtn{
+.loginform .loginBtn{
   cursor: pointer;
+      /* margin-left: 90px; */
 }
 .authPage .banner {
   flex: 2;

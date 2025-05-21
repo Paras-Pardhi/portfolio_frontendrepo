@@ -4,7 +4,6 @@ import './projectshimmer.css'
 const ProjectDetailShimmer = () => {
   return (
     <section className='project-section-shimmer'>
-            return(
                 <div className="project-box-shimmer shimmer-card" >
                 <div className="project-img-shimmer"></div>
                 <div className="project-detail-shimmer">
@@ -15,7 +14,6 @@ const ProjectDetailShimmer = () => {
                   <button className="pro-det-shimmer"></button>
                 </div>
               </div>
-            )
     </section>
   );
 }
