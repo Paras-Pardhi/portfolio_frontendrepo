@@ -10,8 +10,8 @@
 }
 
 body{
-    /* --background-color: white;
-    --color: black;
+     background-color: hsl(207, 26%, 17%);;
+   /* --color: black;
     --elements-color: white; */
      --background-color: hsl(207, 26%, 17%);
   --color: white;
